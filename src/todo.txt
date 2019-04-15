@@ -1,0 +1,11 @@
+
+ * Add Array pattern
+ * Tidy up in Dispatch.jl, move some into DecisionTree?
+ * Improve show_dispatch output
+   - Nicer names for unnamed temporaries
+ * Extract preparations from first predicate in code_predicate
+   - reflect in results
+ * Pull computations upward in decision tree as far as they are needed
+   by every branch
+ * Eliminate sure branches
+
